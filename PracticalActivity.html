@@ -1,0 +1,23 @@
+<html>
+<head><H1> <Center>Calculator </H1>
+<script>
+var a=0;
+var b=0;
+var c="";
+function MULTIPLY()
+{
+var a,b,c;<Center>
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+c= a * b;
+document.getElementById("answer").value= c;
+}
+</script>
+</head>
+<body bgcolor="yellow" TEXT="black">
+Enter the First number : <input type="text" id="first"><br>
+Enter the Second number: <input type="text" id="second"><br>
+<input type="button" onclick="MULTIPLY()" value="Multiply"><BR>
+ANSWER<input id="answer">
+</body>
+</html>
